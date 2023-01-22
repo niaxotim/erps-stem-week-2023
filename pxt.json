@@ -8,7 +8,8 @@
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "traffic-lights-basic-tutorial.md"
     ],
     "testFiles": [
         "test.ts"
