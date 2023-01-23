@@ -65,3 +65,7 @@ input.onButtonPressed(Button.B, function () {
     Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Yellow, Kitronik_STOPbit.DisplayLights.Off)
     Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Green, Kitronik_STOPbit.DisplayLights.Off)
 })
+```
+
+### Step 5
+Connect your BBC micro:bit and click ``|Download|``. Once programmed, power the BBC micro:bit and press ``||input:buttons A and B||`` to turn the lights On and Off.
