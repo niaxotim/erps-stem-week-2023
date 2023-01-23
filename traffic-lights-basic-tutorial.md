@@ -6,6 +6,8 @@
 ## Introduction
 ### Introduction Step @unplugged
 In this tutorial, you will start by getting all of the lights to come on!
+![All lights lit up](https://raw.githubusercontent.com/niaxotim/erps-stem-week-2023/master/assets/traffic_lights_basic.png)
+
 
 ### Step 1
 The traffic light has 3 different LED bulbs, each of which can be controlled individually.
