@@ -4,7 +4,7 @@
 # traffic-lights-basic-tutorial
 
 ## Introduction
-### Introduction Step @unplugged
+### Introduction Step @showdialog
 Some traffic lights intro!
 
 ### Step 1
