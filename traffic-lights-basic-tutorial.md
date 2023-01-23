@@ -39,3 +39,29 @@ input.onButtonPressed(Button.A, function () {
     Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Red, Kitronik_STOPbit.DisplayLights.On)
 })
 ```
+
+### Step 3
+Notice all of the blocks have the colour "Red" selected.  Change one block to "Yellow" and another to "Green".
+#### ~ tutorialhint
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Red, Kitronik_STOPbit.DisplayLights.On)
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Yellow, Kitronik_STOPbit.DisplayLights.On)
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Green, Kitronik_STOPbit.DisplayLights.On)
+})
+```
+
+### Step 4
+This code will turn on all the LEDs when ``||input:Button A||`` is pressed. See if you can create the similar code to turn the LEDs off when ``||input:Button B||`` is pressed.
+#### ~ tutorialhint
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Red, Kitronik_STOPbit.DisplayLights.On)
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Yellow, Kitronik_STOPbit.DisplayLights.On)
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Green, Kitronik_STOPbit.DisplayLights.On)
+})
+input.onButtonPressed(Button.B, function () {
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Red, Kitronik_STOPbit.DisplayLights.Off)
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Yellow, Kitronik_STOPbit.DisplayLights.Off)
+    Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Green, Kitronik_STOPbit.DisplayLights.Off)
+})
