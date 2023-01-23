@@ -1,9 +1,16 @@
+### @activities true
+### @explicitHints true
+
 # traffic-lights-basic-tutorial
 
-## Step 1
+## Introduction
+### Introduction Step @unplugged
+Some traffic lights intro!
+
+### Step 1
 
 hello step 2
 
-## Step 2
+### Step 2
 
 hello step 2
