@@ -1,12 +1,13 @@
 ### @activities true
 ### @explicitHints true
 
-# :MOVE Motor Drawing Robot
+# Traffic Lights - Basic Tutorial
 
 ## Introduction
 ### Introduction Step @unplugged
-Learn how to use the :MOVE Motor to draw shapes using the pen mount.
+In this tutorial, you will start by getting all of the lights to come on!
 
+## Traffic Lights
 ### Step 1
 
 hello step 2
